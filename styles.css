@@ -8,8 +8,8 @@ body {
 
 @keyframes alerting {
   0% {
-    top: 0;
-    margin: auto;
+    top: 0px;
+    
   }
 
   /*50% {
@@ -18,12 +18,12 @@ body {
 
   100% {
     top: calc(50vh - 50px);
-    margin: auto;
+   
   }
 }
 
 .block {
-  
+ 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -45,5 +45,5 @@ body {
   animation-name: alerting;
   animation-duration: 2s;
   animation-timing-function: ease;
-  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
 }
